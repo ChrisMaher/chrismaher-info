@@ -1,0 +1,351 @@
+/* --------------------------------------------------
+   BASIC
+-------------------------------------------------- */
+body {
+	color: #252527;
+	background: #252527;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #252527;
+}
+a {
+	color: #0575e8;
+}
+ins { 
+	background: #e7e7e7;
+}
+blockquote {
+	border-left: 1px solid #0575e8;
+}
+pre {
+	background: #f5f5f5;
+}
+caption {
+	color: #969696;
+}
+table {
+	border-top: 1px solid #e7e7e7;
+}
+tr {
+	border-bottom: 1px solid #e7e7e7;
+}
+thead tr:nth-child(2n), thead tr:nth-child(2n+1) {
+	background: #f5f5f5; 
+}
+tr:nth-child(2n) { 
+	background: #f5f5f5; 
+}
+tr:nth-child(2n+1) { 
+	background: #fbfbfb;
+}
+tr:hover td { 
+	color: #0575e8;
+}
+input[type=text], input[type=password], textarea {
+	color: #969696;
+	background-color: #f5f5f5;
+	border: 1px solid #c8c8c8;
+	-webkit-box-shadow:	inset 0 2px 4px rgba(0,0,0,.1);
+	-moz-box-shadow:	inset 0 2px 4px rgba(0,0,0,.1);	
+	box-shadow:			inset 0 2px 4px rgba(0,0,0,.1);
+}
+input[type=text]:focus, textarea:focus {
+	color: #252527;
+	background-color: #fbfbfb;
+	border-color: #969696;
+}
+input[type=submit] {
+	color: #252527;
+	text-shadow: 0 1px 1px rgba(0,0,0,.1);
+	border: 1px solid #c8c8c8;
+	background: #f5f5f5;
+	background: -webkit-linear-gradient(top, #f5f5f5 0%,#e7e7e7 100%);
+	background: -moz-linear-gradient(top, #f5f5f5 0%, #e7e7e7 100%);	
+	background: linear-gradient(top, #f5f5f5 0%,#e7e7e7 100%);
+	-webkit-box-shadow:	0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow:	0 1px 2px rgba(0,0,0,.2);
+	box-shadow:			0 1px 2px rgba(0,0,0,.2);
+}
+input[type=submit]:hover, input[type=submit]:focus {
+	background: #e7e7e7;
+	background: -webkit-linear-gradient(top, #fefefe 0%,#e7e7e7 100%);
+	background: -moz-linear-gradient(top, #fefefe 0%, #e7e7e7 100%);	
+	background: linear-gradient(top, #fefefe 0%,#e7e7e7 100%);
+}
+input[type=submit]:active {
+	color: #7a7a7a;
+	background: -webkit-linear-gradient(top, #e4e4e4 0%,#f5f5f5 100%);
+	background: -moz-linear-gradient(top, #e4e4e4 0%, #f5f5f5 100%);
+	background: linear-gradient(top, #e4e4e4 0%,#f5f5f5 100%);
+}
+#wrapper {
+	background-color: #fbfbfb;
+	border: 2px solid #969696;
+	-webkit-box-shadow:	0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:	0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:			0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* --------------------------------------------------
+   HEADER
+-------------------------------------------------- */
+#masthead { 
+	border-top: 12px solid #0575e8;
+}
+#topbar {
+	border-bottom: 1px solid #969696;
+}
+#access a {
+	border-left: 1px solid #c8c8c8;
+	color: #969696;	
+}
+#access a:focus, #access a:hover, #access .current_page_item a {
+	color: #0575e8;
+}
+#access .sub-menu,
+#access .children {
+	background: #fbfbfb;
+	border: 1px solid #c8c8c8;
+}
+#access .sub-menu a,
+#access .children a {
+	border-top: 1px solid #c8c8c8;
+}
+#access .select-menu { 
+	background: #f5f5f5;
+	color: #969696;
+   	border: 1px solid #c8c8c8;
+}
+#print-btn, #download-btn {
+	color: #969696;
+}
+#print-btn:hover, #print-btn:focus, #download-btn:hover, #download-btn:focus {
+	color: #0575e8;
+}
+#masthead .photo { 
+	border: 5px solid #e7e7e7;
+	-webkit-box-shadow:	0px 0px 1px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow:	0px 0px 1px 1px rgba(0,0,0,0.2);
+	box-shadow:			0px 0px 1px 1px rgba(0,0,0,0.2);
+}
+#social a {
+	color: #fbfbfb;
+	background: #969696;
+}
+
+/* --------------------------------------------------
+   CONTENT
+-------------------------------------------------- */
+.page-header { 
+	border-top: 1px solid #969696;
+}
+.page-title { 
+	color: #969696;
+}
+h1.entry-title {
+	color: #969696;
+	border-top: 1px solid #969696;
+}
+.entry-title a {
+	color: #252527;
+}
+.entry-title a:hover, .entry-title:focus { 
+	color: #0575e8;
+}
+.entry-content .left {
+	border-top: 1px solid #0575e8;
+}
+.entry-content .right {
+	border-top: 1px solid #969696;
+}
+.entry-content ul > li:before, .comment-content ul > li:before {
+	color: #0575e8;
+}
+.wp-caption .wp-caption-text, .gallery-caption {
+	color :#969696;
+}
+.entry-content img {
+	border: 1px solid #e7e7e7;
+}
+.gallery img {
+	border: 1px solid #e7e7e7 !important;
+}
+.resume-section .entry-title {
+	border-top: 3px solid #0575e8;
+	color: #969696;	
+}
+.resume-section .entry-title:after { 
+	border-color: #0575e8 transparent transparent transparent;
+	border-color: #0575e8 rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.resume-section .entry-content {
+	border-top: 1px solid #969696;
+}
+#contact-details a {
+	color: #252527;
+}
+#contact-details a:hover, #contact-details a:focus {
+	color: #0575e8;
+}
+.entry-thumb a {
+	background: #0575e8;
+}
+.entry-thumb img {
+	border: 1px solid #e7e7e7;
+}
+.fadein .viewdetails {
+	border: 10px solid #e7e7e7;
+}
+.viewdetails span {
+	color: #fbfbfb;
+	background-color: #252527;
+}
+.grid-btn, .list-btn {
+	background: #969696;
+	color: #fbfbfb;
+}
+.grid-btn.inactive, .list-btn.inactive {
+	background: #e7e7e7;
+	color: #969696;
+}
+.list-btn:hover, .grid-btn:hover {
+	background: #0575e8;
+	color: #fbfbfb;
+}
+.layout-list .entry-title, .single-portfolio .entry {
+	border-top: 1px solid #0575e8; 
+}
+
+/* --------------------------------------------------
+   COMMENTS
+-------------------------------------------------- */
+#comments h4, #respond h4 {
+	border-top: 1px solid #969696;
+}
+div.comment {
+	border-top: 1px solid #e7e7e7;
+}
+.avatar {
+	border: 1px solid #e7e7e7;
+}
+.comment-meta {
+	color: #969696;
+}
+
+/* --------------------------------------------------
+   FORMS
+-------------------------------------------------- */
+form .required, form .note, #contactform span.error {
+	color: #0575e8;
+}
+form .not-published, .message-sent {
+	color: #969696;
+}
+.input-bg, .textarea-bg {
+	background-color: #e7e7e7;
+}
+#cfloading {
+	background: url(../images/cfloader_light.gif) no-repeat center; 
+}
+
+/* --------------------------------------------------
+   CONTENT NAVIGATION
+-------------------------------------------------- */
+#portfolio-nav {
+	border-top: 1px solid #969696;
+}
+.pagination a.page-numbers {
+	color: #969696;
+}
+.pagination a.page-numbers:hover, .pagination a.page-numbers:focus, .pagination .current {
+	color: #0575e8;
+}
+#single-nav a {
+	background: #969696;
+	color: #fbfbfb;
+}
+#single-nav a:hover, #single-nav a:focus {
+	background: #0575e8;
+	color: #fbfbfb;
+}
+.no-prev-post, .no-next-post {
+	background: #e7e7e7;
+	color: #969696;
+}
+.adj-thumb:after {
+	border-color: #0575e8 transparent transparent transparent;
+	border-color: #0575e8 rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.adj-thumb img {
+	border: 2px solid #0575e8;
+}
+
+/* --------------------------------------------------
+   FOOTER
+-------------------------------------------------- */
+#site-info {
+	color: #969696; 
+	border-top: 1px solid #969696;
+}
+#back-to-top a {
+	color: #969696; 
+}
+#back-to-top a:hover, #back-to-top a:focus {
+	color: #0575e8; 
+}
+
+/* --------------------------------------------------
+   SHORTCODES
+-------------------------------------------------- */
+.star .icon-star {
+	color: #0575e8;
+}
+.star .star-unfilled {
+	color: #969696;
+}
+.bar .skill-value-bg {
+	border: 1px solid #c8c8c8;
+	background: #f5f5f5;
+	background: -webkit-linear-gradient(top, #e7e7e7 0%,#f5f5f5 50%,#e7e7e7 100%);
+	background: -moz-linear-gradient(top, #e7e7e7 0%, #f5f5f5 50%, #e7e7e7 100%);	
+	background: linear-gradient(top, #e7e7e7 0%,#f5f5f5 50%,#e7e7e7 100%);
+}
+.bar .skill-value {
+	background: #1f8eff;
+	background: -webkit-linear-gradient(top, #1f8eff 0%,#0575e8 100%);
+	background: -moz-linear-gradient(top, #1f8eff 0%, #0575e8 100%);	
+	background: linear-gradient(top, #1f8eff 0%,#0575e8 100%);
+}
+
+/* --------------------------------------------------
+   SLIDER
+-------------------------------------------------- */
+.flexslider {
+	border: 1px solid #e7e7e7;
+}
+.flex-direction-nav li .next, .flex-direction-nav li .prev {
+	background: #252527;
+	color: #fbfbfb;
+}
+.flex-direction-nav li .next:hover, .flex-direction-nav li .prev:hover {
+	background: #0575e8;
+}
+.flex-control-nav li a {
+	background: #c8c8c8;
+	border: 2px solid #c8c8c8;
+}
+.flex-control-nav li a:hover, .flex-control-nav li a.active {
+	background: #252527;
+}
+
+/* --------------------------------------------------
+   MISC
+-------------------------------------------------- */
+::-moz-selection { 
+	background: #0575e8; 
+	color: #fbfbfb;
+}
+::selection {
+	background: #0575e8;
+	color: #fbfbfb;
+}
